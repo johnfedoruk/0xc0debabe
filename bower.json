@@ -1,0 +1,22 @@
+{
+  "name": "0xc0debabe",
+  "homepage": "https://github.com/johnfedoruk/0xc0debabe",
+  "authors": [
+    "John A. Fedoruk <johnny@johnfedoruk.ca>"
+  ],
+  "description": "Another JavaScript Framework..",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	"angular":                  "1.6",
+	"angular-route":            "1.6"
+  }
+}
