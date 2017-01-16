@@ -1,0 +1,11 @@
+{
+	"username":"johndoe",
+	"firstname":"John",
+	"lastname":"Doe",
+	"email":[
+		{
+			"title":"private",
+			"emailAddress":"johndoe@example.com"
+		}
+	]
+}

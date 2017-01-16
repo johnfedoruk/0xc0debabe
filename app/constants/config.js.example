@@ -2,6 +2,7 @@
 	"use strict";
 
 	var config = {
+		"API":			"http://localhost",
 		"DEBUG_LEVEL":	"info"
 	};
 
