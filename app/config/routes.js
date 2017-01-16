@@ -1,6 +1,6 @@
 (function() {
 	"use strict";
-	
+
 	angular.module("0xc0debabe").config(router);
 	router.$inject = [
 		"$routeProvider",
@@ -10,6 +10,7 @@
 		$routeProvider.when(
 			"/",
 			{
+				controller: "HomeController",
 				templateUrl: 'app/views/pages/home.htm'
 			}
 		);
