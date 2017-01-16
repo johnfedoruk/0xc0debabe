@@ -1,0 +1,9 @@
+(function() {
+	"use strict";
+
+	var config = {
+		"DEBUG_LEVEL":	"info"
+	};
+
+	angular.module("0xc0debabe").constant("config",config);
+})();

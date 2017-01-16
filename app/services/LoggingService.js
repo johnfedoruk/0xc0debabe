@@ -4,10 +4,11 @@
     angular.module("0xc0debabe").factory("LoggingService",service);
 
     service.$inject = [
+		"config"
     ];
 
     function service(config) {
-		var config_debug_level = "info";
+		var config_debug_level = config.DEBUG_LEVEL;
 		var debug = window.console;
 		disableConsole();
 
