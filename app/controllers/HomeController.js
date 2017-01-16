@@ -6,9 +6,11 @@
 
 	controller.$inject = [
 		"$scope",
+		"LoggingService"
 	];
 
-	function controller($scope) {
+	function controller($scope,LoggingService) {
+		LoggingService.info("HomeController started");
 		$scope.pageTitle = "0xc0debabe";
 	}
 
