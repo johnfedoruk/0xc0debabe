@@ -16,7 +16,9 @@
     "tests"
   ],
   "dependencies": {
-	"angular":                  "1.6",
-	"angular-route":            "1.6"
+    "angular": "1.6",
+    "angular-route": "1.6",
+    "materialize": "^0.97.8",
+    "components-font-awesome": "^4.7.0"
   }
 }
